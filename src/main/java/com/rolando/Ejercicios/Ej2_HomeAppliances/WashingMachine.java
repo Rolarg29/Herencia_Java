@@ -24,17 +24,16 @@ public class WashingMachine extends HomeAppliances {
     @Override
     public String toString() {
         return "WashingMachine{" +
-                "load=" + load +
-                ", price=" + price +
+                "price=" + price +
                 ", color='" + color + '\'' +
                 ", powerConsumption=" + powerConsumption +
                 ", weight=" + weight +
+                ", load=" + load +
                 '}';
     }
 
     //METHODS
-    public WashingMachine createWashingMachine(){
-        Scanner read = new Scanner(System.in).useDelimiter("\n");
+    public WashingMachine createWashingMachine(Scanner read){
         HomeAppliances wm = super.createHomeAppliance(read);
 
         System.out.println("Enter your washing machine load capacity in kg.");

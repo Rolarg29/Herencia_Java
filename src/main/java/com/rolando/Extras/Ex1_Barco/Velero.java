@@ -1,4 +1,4 @@
-package com.rolando.Extras.Ex1;
+package com.rolando.Extras.Ex1_Barco;
 
 public class Velero extends Barco {
     private int mastsNumber;

@@ -1,4 +1,4 @@
-package com.rolando.Extras.Ex1;
+package com.rolando.Extras.Ex1_Barco;
 
 public class Barco {
     //Un Barco se caracteriza por: su matrícula, su eslora en metros y año de fabricación.

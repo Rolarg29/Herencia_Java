@@ -31,6 +31,18 @@ public class Tv extends HomeAppliances{
         TdtTuner = tdtTuner;
     }
 
+    @Override
+    public String toString() {
+        return "Tv{" +
+                "price=" + price +
+                ", color='" + color + '\'' +
+                ", powerConsumption=" + powerConsumption +
+                ", weight=" + weight +
+                ", resolution=" + resolution +
+                ", TdtTuner=" + TdtTuner +
+                '}';
+    }
+
     public Tv createTv(Scanner read){
         HomeAppliances tv = super.createHomeAppliance(read);
 

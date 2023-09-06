@@ -1,4 +1,4 @@
-package com.rolando.Extras.Ex1;
+package com.rolando.Extras.Ex1_Barco;
 
 public class Motor extends Barco{
     protected int powerCV;
